@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>闪烁之狐</title>
+  <title>Sunshine</title>
   
-  <subtitle>闪烁之狐</subtitle>
+  <subtitle>悦己之作,方能悦人</subtitle>
   <link href="https://blinkfox.github.io/atom.xml" rel="self"/>
   
   <link href="https://blinkfox.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://blinkfox.github.io/</id>
   
   <author>
-    <name>blinkfox</name>
+    <name>JustinRomantic</name>
     
   </author>
   
