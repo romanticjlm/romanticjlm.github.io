@@ -502,15 +502,14 @@ student<span class="token punctuation">[</span><span class="token number">1</spa
     INT32 a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
     pINT32 pt <span class="token operator">=</span> <span class="token operator">&amp;</span>a<span class="token punctuation">;</span>
     pINT32 pt3 <span class="token operator">=</span> <span class="token constant">NULL</span><span class="token punctuation">;</span>
-
     INT8 b <span class="token operator">=</span> <span class="token number">26</span><span class="token punctuation">;</span>
     pINT8 pt2<span class="token operator">=</span> <span class="token operator">&amp;</span>b<span class="token punctuation">;</span>
-
+    
     arry2 age2<span class="token punctuation">;</span>
     pt3 <span class="token operator">=</span> age2<span class="token punctuation">;</span>
     age2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">21</span><span class="token punctuation">;</span>
     age2<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">42</span><span class="token punctuation">;</span>
-
+    
     <span class="token comment" spellcheck="true">/*INT32 等价于 int;  pINT32 等价于 int *; */</span>
     <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"sizeof(INT32) = %d,sizeof(int) = %d, sizeof(a) = %d\r\n"</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>INT32<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"a = %d\r\n"</span><span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>
