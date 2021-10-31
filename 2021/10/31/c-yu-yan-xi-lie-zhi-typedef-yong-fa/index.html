@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="嵌入式">
+    <meta name="keywords" content="C语言难点梳理之typedef 用法, 嵌入式">
     <meta name="description" content="C语言难点梳理1. typedef 用法typedef声明，简称typedef，为现有类型创建一个新的名字，或称为类型别名。typedef不仅可以为变量定义别名，可以为struct定义别名，还可以为函数指针定义别名。万能用法：typedef">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Sunshine</title>
+    <title>C语言难点梳理之typedef 用法 | Sunshine</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -312,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">C语言难点梳理之typedef 用法</h1>
                 </div>
             </div>
         </div>
@@ -431,12 +431,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                                <span class="chip bg-color">C语言</span>
+                            </a>
+                        
+                            <a href="/tags/typedef/">
+                                <span class="chip bg-color">typedef</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" class="post-category">
+                                C语言基础
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -466,7 +483,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="C语言难点梳理"><a href="#C语言难点梳理" class="headerlink" title="C语言难点梳理"></a>C语言难点梳理</h1><h2 id="1-typedef-用法"><a href="#1-typedef-用法" class="headerlink" title="1. typedef 用法"></a>1. typedef 用法</h2><p>typedef声明，简称typedef，为现有类型创建一个新的名字，或称为类型别名。<br>typedef不仅可以为<strong>变量</strong>定义别名，可以为<strong>struct</strong>定义别名，还可以为<strong>函数指针</strong>定义别名。<br>万能用法：<strong>typedef  <span style="color:red;">原类型名</span>  <span style="color:blue;">类型别名</span>；</strong>  注意：<strong>数组和函数指针</strong>要稍加转换然后再进行类比。<br>            typedef   <strong><span style="color:red;">int</span></strong>                                     <span style="color:blue;"><strong>INT32</strong></span>;<br>            typedef   <strong><span style="color:red;">struct{int age; int high;}</span></strong>   <span style="color:blue;"><strong>student</strong></span>;<br>            <strong>对于数组：</strong><br>            typedef  int <strong><span style="color:blue;">arry2</span></strong>[2];<br>            typedef  int[2]  arry2;<code>//这种写法只是为了便于理解，不能这样使用</code><br>           <strong>对于函数指针：</strong><br>            typedef  int (***<span style="color:blue;">pFunASdd </span>**)(int, int);<br>            typedef  int( * )(int, int)  pFunASdd;<code>//这种写法只是为了便于理解，不能这样使用</code></p>
+                <h1 id="C语言难点梳理"><a href="#C语言难点梳理" class="headerlink" title="C语言难点梳理"></a>C语言难点梳理</h1><h2 id="1-typedef-用法"><a href="#1-typedef-用法" class="headerlink" title="1. typedef 用法"></a>1. typedef 用法</h2><p>typedef声明，简称typedef，为现有类型创建一个新的名字，或称为类型别名。<br>typedef不仅可以为<strong>变量</strong>定义别名，可以为<strong>struct</strong>定义别名，还可以为<strong>函数指针</strong>定义别名。<br>万能用法：<strong>typedef  <span style="color:red;">原类型名</span>  <span style="color:blue;">类型别名</span>；</strong>  注意：<strong>数组和函数指针</strong>要稍加转换然后再进行类比。<br>            typedef   <strong><span style="color:red;">int</span></strong>                                     <span style="color:blue;"><strong>INT32</strong></span>;<br>            typedef   <strong><span style="color:red;">struct{int age; int high;}</span></strong>   <span style="color:blue;"><strong>student</strong></span>;<br>            <strong>对于数组：</strong><br>            typedef  int <strong><span style="color:blue;">arry2</span></strong>[2];<br>            typedef  int[2]  arry2;<code>//这种写法只是为了便于理解，不能这样使用</code><br>           <strong>对于函数指针：</strong><br>            typedef  int (* <strong><span style="color:blue;">pFunASdd </span></strong>)(int, int);<br>            typedef  int( * )(int, int)  pFunASdd;<code>//这种写法只是为了便于理解，不能这样使用</code></p>
 <h3 id="1-1给变量定义别名"><a href="#1-1给变量定义别名" class="headerlink" title="1.1给变量定义别名"></a>1.1给变量定义别名</h3><pre class=" language-c"><code class="language-c"><span class="token keyword">typedef</span> <span class="token keyword">int</span>   INT32<span class="token punctuation">;</span>
 <span class="token keyword">typedef</span> <span class="token keyword">int</span> <span class="token operator">*</span> pINT32<span class="token punctuation">;</span>
 <span class="token keyword">typedef</span> <span class="token keyword">char</span>  INT8<span class="token punctuation">;</span>
@@ -711,7 +728,15 @@ student<span class="token punctuation">[</span><span class="token number">1</spa
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                                    <span class="chip bg-color">C语言</span>
+                                </a>
+                            
+                                <a href="/tags/typedef/">
+                                    <span class="chip bg-color">typedef</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -890,9 +915,9 @@ student<span class="token punctuation">[</span><span class="token number">1</spa
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="C语言难点梳理之typedef 用法">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">C语言难点梳理之typedef 用法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -907,13 +932,29 @@ student<span class="token punctuation">[</span><span class="token number">1</spa
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Romantic Sunshine
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/" class="post-category">
+                                    C语言基础
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/C%E8%AF%AD%E8%A8%80/">
+                        <span class="chip bg-color">C语言</span>
+                    </a>
+                    
+                    <a href="/tags/typedef/">
+                        <span class="chip bg-color">typedef</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
