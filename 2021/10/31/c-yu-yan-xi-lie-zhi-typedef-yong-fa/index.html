@@ -467,10 +467,10 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="C语言难点梳理"><a href="#C语言难点梳理" class="headerlink" title="C语言难点梳理"></a>C语言难点梳理</h1><h2 id="1-typedef-用法"><a href="#1-typedef-用法" class="headerlink" title="1. typedef 用法"></a>1. typedef 用法</h2><p>typedef声明，简称typedef，为现有类型创建一个新的名字，或称为类型别名。<br>typedef不仅可以为<strong>变量</strong>定义别名，可以为<strong>struct</strong>定义别名，还可以为<strong>函数指针</strong>定义别名。<br>万能用法：<strong>typedef   ==原类型名== 类型别名；</strong>  注意：<strong>数组和函数指针</strong>要稍加转换然后再进行类比。<br>            typedef  ==int==                                       INT32;<br>            typedef  ==struct{int age; int high;}==   student;<br>            <strong>对于数组：</strong><br>            typedef int arry2[2];<br>            typedef  ==int[2]==  arry2;<code>//这种写法只是为了便于理解，不能这样使用</code><br>           <strong>对于函数指针：</strong><br>            typedef int (*pFunASdd)(int, int);<br>            typedef ==int( * )(int, int)==  pFunASdd;<code>//这种写法只是为了便于理解，不能这样使用</code></p>
-<h3 id="1-1给变量定义别名"><a href="#1-1给变量定义别名" class="headerlink" title="1.1给变量定义别名"></a>1.1给变量定义别名</h3><pre class=" language-c++"><code class="language-c++">typedef int   INT32;
-typedef int * pINT32;
-typedef char  INT8;
-typedef char * pINT8;
+<h3 id="1-1给变量定义别名"><a href="#1-1给变量定义别名" class="headerlink" title="1.1给变量定义别名"></a>1.1给变量定义别名</h3><pre class=" language-c"><code class="language-c"><span class="token keyword">typedef</span> <span class="token keyword">int</span>   INT32<span class="token punctuation">;</span>
+<span class="token keyword">typedef</span> <span class="token keyword">int</span> <span class="token operator">*</span> pINT32<span class="token punctuation">;</span>
+<span class="token keyword">typedef</span> <span class="token keyword">char</span>  INT8<span class="token punctuation">;</span>
+<span class="token keyword">typedef</span> <span class="token keyword">char</span> <span class="token operator">*</span> pINT8<span class="token punctuation">;</span>
 </code></pre>
 <ul>
 <li><p>*<em>给int类型变量定义别名INT32，给int <em>类型变量定义别名pINT32。</em></em></p>
