@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2022/01/04/typora-shi-yong-jiao-cheng/"/>
+      <url>/2022/01/04/typora-shi-yong-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Typora使用教程"><a href="#Typora使用教程" class="headerlink" title="Typora使用教程"></a>Typora使用教程</h1><h2 id="1-模式切换"><a href="#1-模式切换" class="headerlink" title="1.模式切换"></a>1.模式切换</h2><p>点击左下角&lt;/&gt;切换两种模式：源码模式、文本模式。</p><p><img src="../images/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora%E6%BA%90%E7%A0%81%E6%A8%A1%E5%BC%8F.jpg" alt="Typora源码模式"></p><p><img src="../images/Typora%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/Typora%E9%9D%9E%E6%BA%90%E7%A0%81%E6%A8%A1%E5%BC%8F-16413060437101.jpg" alt="Typora非源码模式"></p><h2 id="2-文字处理"><a href="#2-文字处理" class="headerlink" title="2.文字处理"></a>2.文字处理</h2><p>   2.1标题 </p><p>标题一共有六级,是用“#”实现的，标题前面加一个“#”，代表一级标题；依次类推，标题前面加六个“#”代表六级标题；一共有六级标题，编辑各种文档完全够用,左侧的目录会根据输入的标题自动生成响应的层级。</p><p>   #标题1</p><p>   ##标题2</p><p>   ######标题6</p><h3 id="2-2强调"><a href="#2-2强调" class="headerlink" title="2.2强调"></a>2.2强调</h3><p>在要内容前后分别加<strong>两个</strong>“*”号。</p><h3 id="2-3-斜体"><a href="#2-3-斜体" class="headerlink" title="2.3 斜体"></a>2.3 斜体</h3><p>前后分别加一个“*”号。</p><h3 id="2-4删除线"><a href="#2-4删除线" class="headerlink" title="2.4删除线"></a>2.4删除线</h3><p>内容前后分别加上<strong>两个</strong>“~”号。</p><h2 id="3-list列表处理"><a href="#3-list列表处理" class="headerlink" title="3.list列表处理"></a>3.list列表处理</h2><h3 id="3-1有序列表"><a href="#3-1有序列表" class="headerlink" title="3.1有序列表"></a>3.1有序列表</h3><p>输入数字“1”+“.”+空格 ， 自动开始有序列表。</p><h3 id="3-2无序列表"><a href="#3-2无序列表" class="headerlink" title="3.2无序列表"></a>3.2无序列表</h3><p>输入“+”或“-”或“*”+空格，自动开始无序列表。</p><h3 id="3-3table表格"><a href="#3-3table表格" class="headerlink" title="3.3table表格"></a>3.3table表格</h3><p>Ctrl+T,在弹出的对话框中选择行列数，自动生成列表。 还可以很方便地对表格进行编辑。</p><p>当然还有另外一种建立表格的方式用’|’分隔然后回车创建表格,使用ctrl+回车新添一行</p><h3 id="3-4分割线"><a href="#3-4分割线" class="headerlink" title="3.4分割线"></a>3.4分割线</h3><p>输入三个或三个以上“-”（“*”），再按回车键，即出现一条分割线。</p><h3 id="3-5插入"><a href="#3-5插入" class="headerlink" title="3.5插入"></a>3.5插入</h3><p>插入本地图片：直接把图片拖入即可； </p><p>插入网络图片：![图片标题]（图片链接）。</p><h3 id="3-6链接"><a href="#3-6链接" class="headerlink" title="3.6链接"></a>3.6链接</h3><p>[链接提示]+(链接地址)。</p><h3 id="3-7数学公式"><a href="#3-7数学公式" class="headerlink" title="3.7数学公式"></a>3.7数学公式</h3><p>“$$”+回车。</p><h3 id="3-8代码"><a href="#3-8代码" class="headerlink" title="3.8代码"></a>3.8代码</h3><p>行内代码：代码的两端各加一个“`”号，（在Tab键上面，英文输入法）。</p><p>代码块：输入三个“~”，按回车键，即可选择编程语言。</p><h2 id="4-导出多种格式文件"><a href="#4-导出多种格式文件" class="headerlink" title="4. 导出多种格式文件"></a>4. 导出多种格式文件</h2><p>typora 的文件导入/导出功能使用 Pandoc 把 Markdown 源码转换成不同的文件格式，所以我们如果想使用文件导入/导出功能，必须先安装 Pandoc。</p><h2 id="5-设置文字颜色"><a href="#5-设置文字颜色" class="headerlink" title="5. 设置文字颜色"></a>5. 设置文字颜色</h2><p><span style="color:green;background:背景颜色;font-size:文字大小;font-family:字体;">文字颜色测试</span><br>==高亮设置测试==</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2021/11/07/imx6ull-qu-dong-xue-xi-zhi-an-jian-qu-dong/"/>
+      <url>/2021/11/07/imx6ull-qu-dong-xue-xi-zhi-an-jian-qu-dong/</url>
+      
+        <content type="html"><![CDATA[<h1 id="按键驱动学习"><a href="#按键驱动学习" class="headerlink" title="按键驱动学习"></a>按键驱动学习</h1><p>APP读取键值，需要有按键驱动程序。</p><p>APP读取按键值的4种方法：</p><ul><li><p><strong>1.查询方式</strong></p></li><li><p><strong>2.休眠-唤醒方式</strong></p></li><li><p><strong>3.poll 方式</strong></p></li><li><p><strong>4.异步通知方式</strong></p></li></ul><p>相关知识点：</p><ul><li><strong>1.驱动的基本技能： 中断、休眠、唤醒、poll等机制。</strong></li><li><strong>2. APP开发的基本技能：阻塞、非阻塞、休眠、poll、异步通知。</strong></li></ul><h2 id="1-1-母亲如何知道孩子醒了"><a href="#1-1-母亲如何知道孩子醒了" class="headerlink" title="1.1  母亲如何知道孩子醒了"></a>1.1  母亲如何知道孩子醒了</h2><p>1.时不时进房间看一下。                                                       <strong>查询方式</strong><br>    特点：：简单，但是累。<br>2.进去陪小孩一起睡觉，小孩醒了会吵醒她。                         <strong>休眠-唤醒</strong><br>    特点：不累，但妈妈干不了活<br>3.妈妈可以干很多活，但是可以陪小孩睡一会，定个闹钟。     <strong>poll机制</strong><br>    特点：要浪费点时间，但是可以继续干活。<br>4.妈妈在客厅干活，小孩醒了他会自己走出房门告诉妈妈。     <strong>异步通知</strong><br>    特点：妈妈、小孩互不耽误。</p><p>这 4 种方法没有优劣之分，在不同的场合使用不同的方法。</p><h2 id="1-2-APP-读取按键的-4-种方法"><a href="#1-2-APP-读取按键的-4-种方法" class="headerlink" title="1.2  APP 读取按键的 4 种方法"></a>1.2  APP 读取按键的 4 种方法</h2><p>跟上述生活场景类似， APP 去读取按键也有 4 种方法：<br>① 查询方式<br>② 休眠-唤醒方式<br>③ poll 方式<br>④ 异步通知方式<br>第 2、 3、 4 种方法，都涉及中断服务程序。中断，就像小孩醒了会哭闹一样，中断不经意间到来，它会做某些事情：唤醒 APP、向 APP 发信号。所以，在按键驱动程序中，<strong>中断是核心</strong>。<br>  实际上，中断无论是在单片机还是在 Linux 中都很重要。在 Linux 中，中断的知识还涉及进程、线程等</p><h3 id="1-2-1查询方式"><a href="#1-2-1查询方式" class="headerlink" title="1.2.1查询方式"></a>1.2.1查询方式</h3><p><strong>APP</strong>                  <strong>open</strong>                                      <strong>read</strong></p><hr><p><strong>Driver</strong>             <strong>drv_open</strong>                                <strong>drv_read</strong><br>                   配置GPIO为输入引脚                   直接返回引脚状态</p><p>  驱动程序中构造、注册一个 file_operations 结构体，里面提供有对应的 open,read 函数。 APP 调用open 时，导致驱动中对应的 open 函数被调用，在里面配置 GPIO 为输入引脚。 APP 调用 read 时，导致驱动中对应的 read 函数被调用，它读取寄存器，把引脚状态直接返回给 APP。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C语言难点梳理之typedef 用法</title>
       <link href="/2021/10/31/c-yu-yan-xi-lie-zhi-typedef-yong-fa/"/>
       <url>/2021/10/31/c-yu-yan-xi-lie-zhi-typedef-yong-fa/</url>

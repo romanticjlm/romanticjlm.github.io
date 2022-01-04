@@ -6,7 +6,7 @@
   <link href="https://romanticjlm.github.io/atom.xml" rel="self"/>
   
   <link href="https://romanticjlm.github.io/"/>
-  <updated>2021-10-31T07:06:49.638Z</updated>
+  <updated>2022-01-04T14:21:44.180Z</updated>
   <id>https://romanticjlm.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://romanticjlm.github.io/2022/01/04/typora-shi-yong-jiao-cheng/"/>
+    <id>https://romanticjlm.github.io/2022/01/04/typora-shi-yong-jiao-cheng/</id>
+    <published>2022-01-04T14:16:05.436Z</published>
+    <updated>2022-01-04T14:21:44.180Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Typora使用教程&quot;&gt;&lt;a href=&quot;#Typora使用教程&quot; class=&quot;headerlink&quot; title=&quot;Typora使用教程&quot;&gt;&lt;/a&gt;Typora使用教程&lt;/h1&gt;&lt;h2 id=&quot;1-模式切换&quot;&gt;&lt;a href=&quot;#1-模式切换&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://romanticjlm.github.io/2021/11/07/imx6ull-qu-dong-xue-xi-zhi-an-jian-qu-dong/"/>
+    <id>https://romanticjlm.github.io/2021/11/07/imx6ull-qu-dong-xue-xi-zhi-an-jian-qu-dong/</id>
+    <published>2021-11-07T12:52:23.972Z</published>
+    <updated>2021-11-07T13:05:52.010Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;按键驱动学习&quot;&gt;&lt;a href=&quot;#按键驱动学习&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>C语言难点梳理之typedef 用法</title>
