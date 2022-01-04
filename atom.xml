@@ -6,7 +6,7 @@
   <link href="https://romanticjlm.github.io/atom.xml" rel="self"/>
   
   <link href="https://romanticjlm.github.io/"/>
-  <updated>2022-01-04T14:21:44.180Z</updated>
+  <updated>2022-01-04T14:40:29.000Z</updated>
   <id>https://romanticjlm.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Typora使用教程</title>
     <link href="https://romanticjlm.github.io/2022/01/04/typora-shi-yong-jiao-cheng/"/>
     <id>https://romanticjlm.github.io/2022/01/04/typora-shi-yong-jiao-cheng/</id>
-    <published>2022-01-04T14:16:05.436Z</published>
-    <updated>2022-01-04T14:21:44.180Z</updated>
+    <published>2022-01-03T16:00:00.000Z</published>
+    <updated>2022-01-04T14:40:29.000Z</updated>
     
     
       
@@ -34,15 +34,19 @@
     
     
     
+    <category term="Typora" scheme="https://romanticjlm.github.io/categories/Typora/"/>
+    
+    
+    <category term="Typora" scheme="https://romanticjlm.github.io/tags/Typora/"/>
     
   </entry>
   
   <entry>
-    <title></title>
+    <title>按键驱动学习</title>
     <link href="https://romanticjlm.github.io/2021/11/07/imx6ull-qu-dong-xue-xi-zhi-an-jian-qu-dong/"/>
     <id>https://romanticjlm.github.io/2021/11/07/imx6ull-qu-dong-xue-xi-zhi-an-jian-qu-dong/</id>
     <published>2021-11-07T12:52:23.972Z</published>
-    <updated>2021-11-07T13:05:52.010Z</updated>
+    <updated>2022-01-04T14:42:09.508Z</updated>
     
     
       
